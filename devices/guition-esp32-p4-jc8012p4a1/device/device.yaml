@@ -260,8 +260,8 @@ api:
 # The 10.1" panel's USB-C serial output is exposed through a UART0 bridge.
 # ESPHome defaults ESP32-P4 logging to USB_SERIAL_JTAG, which leaves this port
 # showing only early ROM boot text and no application logs.
-logger:
-  hardware_uart: UART0
+# logger:
+#   hardware_uart: UART0
 
 # ---------------------------------------------------------------------------
 # Power management (LDO channel for DSI PHY)
